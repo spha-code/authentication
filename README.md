@@ -98,3 +98,13 @@ python OAuth2_Google.py
 ```
 
 ```
+
+
+Additional GitHub Setup:
+Go to https://github.com/settings/developers
+Click OAuth Apps → New OAuth App
+Application name: anything
+Homepage URL: http://localhost:5000
+Authorization callback URL: http://localhost:5000/callback
+Click Register application
+Copy Client ID and Client Secret (generate one if needed)
